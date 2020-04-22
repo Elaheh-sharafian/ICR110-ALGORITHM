@@ -1,20 +1,28 @@
 Algorithm that print the first 100 Prime number:
 
 N = Number
-D = Divisor
-R = Remaindor
-P = Prime Number
+C = Count
+
 
 Input:
 N = Input;
-D = 2
+i = 2;
+C = 0;
+
 
 Process:
 
-If N > 1;
-  N / D:
-If N % D == 0;
-  break;
-else 
-  N / D++
+for c <= 100;
+  If N > 1: 
+    if i >= N:
+      Print "N is a Prime number."
+      C++
+    else:
+      N / i:
+        if N % i == 0;
+          print "N is NOT a Prime number."
+        else:
+          i++ 	
+  else:
+    Print "N is not a Prime number as Prime number is an integer number greater than 1"
   
