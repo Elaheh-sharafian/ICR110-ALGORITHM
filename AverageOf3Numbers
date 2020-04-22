@@ -1,0 +1,19 @@
+An Algorithm that Calculate the average of 3 numbers:
+
+Average = ( Number 1 + Number 2 + Number 3) / 3
+A = Average
+N1 = Number 1
+N2 = Number 2
+N3 = Number 3
+
+Input:
+N1 = Input;
+N2 = Input;
+N3 = Input;
+A = ?'
+
+
+Process:
+A = (N1+N2+N3) / 3
+output
+print A
