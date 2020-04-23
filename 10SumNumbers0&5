@@ -1,11 +1,15 @@
-Create an algorithm to print the sub of all thenumbers between 1 and 5.
+Create an algorithm to print the sub of all the numbers between 1 and 5.
 N = 1 + 2 + 3 + 4 + 5
 
 
 input: 
 i = 1
+sum = 0
 
 
 Process:
  For i <= 5
-    N = i + i++
+    sum =  sum + i
+    i++
+    
+
