@@ -14,9 +14,10 @@ Process:
 
 for c <= 100;
   If N > 1: 
-    if i >= N:
+    if N >= i and N % i =! 0;
       Print "N is a Prime number."
-      C++
+      C++;
+      i++;
     else:
       N / i:
         if N % i == 0;
