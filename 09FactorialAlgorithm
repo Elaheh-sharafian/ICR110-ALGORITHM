@@ -9,5 +9,6 @@ i = 1;
 Process:
 
 if N > 1:
-    N = i * i++
-    For i++ = N, i++ 
+    for i = N
+      N = i * i++
+
