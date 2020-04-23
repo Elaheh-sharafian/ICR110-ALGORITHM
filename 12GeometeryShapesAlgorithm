@@ -1,0 +1,135 @@
+Create an algorithm per shape which calculates area and perimeter. 
+Remember to check which inputs you need for each one of them!
+
+Variables:
+    A = Area
+    P = Perimeter
+    B = Base
+    H = Height
+    S = Side
+    L = Lenght
+    W = Width
+    R = Radius
+    π = pi = 3.14
+    
+-------------Triangle-------------
+
+Area = (Base*height) / 2
+Perimeter = Side 1 + Side 2 + base
+
+input:
+    B = input;
+    H = input;
+    S1 = input;
+    S2 = input;
+    S3 = input
+
+Process:
+    A = (B*H)/2
+    P = (S1+S2+S3)
+
+Output:
+    Print A and P
+
+-------------parallelogram-------------
+
+Area = Base * height
+Perimeter = 2*(Base + Height)
+
+input:
+    B = input;
+    H = input;
+
+Process:
+    A = B * H
+    P = 2(B + H)
+
+Output:
+    Print A and P
+
+-------------Rhombus-------------
+
+Area = Base * height
+Perimeter = 4 * side
+
+input:
+    B = input;
+    H = input;
+    S = input;
+
+Process:
+    A = B * H
+    P = 4 * S
+
+Output:
+    Print A and P
+
+-------------Rectangle-------------
+
+Area = Length * Width
+Perimeter = 2 * (Length + Width)
+
+input:
+    L = input;
+    W = input;
+
+Process:
+    A = L*W
+    P = 2*(L+W)
+
+Output:
+    Print A and P
+
+-------------Square-------------
+
+Area = Side powered by 2 = Side * Side
+Perimeter = 4*Side
+
+input:
+    S = input;
+    
+Process:
+    A = S^2 = S*S
+    P = 4*S
+
+Output:
+    Print A and P
+
+-------------Trapezoid-------------
+
+Area = ((Base1+Base2)/2) * Height
+Perimeter = Side 1 + Side 2 + base 1 + Base 2
+
+input:
+    B1 = input;
+    B2 = input;
+    H = input;
+    S1 = input;
+    S2 = input;
+
+Process:
+    A = ((B1+B2)*H) /2
+    P = (S1+S2+B1+B2)
+
+Output:
+    Print A and P
+    
+-------------Cirle-------------
+
+Area = (Pi=3.14) * (Radius powered by 2 or Square of the radius)
+Perimeter = 2 * (pi=3.14) * (diameter=2*radius)
+
+input:
+    π = 3.14;
+    r = input;
+    
+Process:
+    A = π(r^2)
+    P = 2πR
+
+Output:
+    Print A and P
+
+------------------------------
+
+The End.
